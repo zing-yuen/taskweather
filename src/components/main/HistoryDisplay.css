@@ -1,0 +1,55 @@
+.history-container {
+    grid-row: 4 / 5;
+}
+
+.history-title {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.circle-icon {
+    border: none;
+    background: #d0d0d0c4;
+    padding: 10px;
+    border-radius: 50%;
+    margin: auto 2px;
+}
+
+.circle-icon:hover {
+    background-color: #8c8c8c;
+}
+
+.btn-history-list {
+    padding: 0 0.2em;
+}
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.history-row-container {
+    display: flex;
+}
+
+.history-row-item-a {
+    padding: 0.5em;
+}
+
+.history-row-item-b {
+    flex-basis: auto;
+    display: flex;
+}
+
+.no-record-box {
+    text-align: center;
+    padding: 2em;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets and desktop */
+    .history-container {
+        grid-row: unset !important;
+    }
+}
